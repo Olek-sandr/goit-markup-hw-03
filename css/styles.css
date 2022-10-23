@@ -21,13 +21,15 @@
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: yellow;
+    outline: black solid 3px;
     background-color: teal;
 }
 
 /* Body */
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .body {
@@ -56,11 +58,18 @@ a {
     color: var(--accent);
 }
 
+/* .site-nav, .auth-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+
 .site-nav a {
     color: var(--main-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .auth-nav a {
@@ -68,6 +77,8 @@ a {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .site-nav a:hover,
@@ -119,9 +130,13 @@ a {
 
 .hero {
 background-color: var(--footer-hero);
+padding: 200px 452px;
 }
 
 .hero > h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
@@ -133,17 +148,37 @@ background-color: var(--footer-hero);
 }
 
 .button-hero {
+    min-width: 216px;
+    padding: 10px 32px;
+    text-align: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     background: #2196F3;
     color: #FFFFFF;
 }
 
+.benefits h2 {
+    display: inline-block;
+    height: 94px;
+    color: transparent;
+    margin: 0 0;
+}
+
+.benefits p {
+    display: inline-block;
+    width: 270px;
+    height: 72px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
 .benefits h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 0;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -160,6 +195,9 @@ background-color: var(--footer-hero);
 
 .activity h2,
 .team h2 {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -207,6 +245,8 @@ background-color: var(--footer-hero);
 
 /* Navigations Buttons*/
 button {
+    border: 1px solid transparent ;
+    border-radius: 4px;
     font-family: inherit;
     cursor: pointer;
     font-weight: 500;
