@@ -25,6 +25,18 @@
     outline: black solid 3px;
 }
 
+button {
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
 /* Body */
 ul {
     list-style: none;
@@ -49,6 +61,7 @@ a {
 .container-header {
     display: flex;
     align-items: center;
+    height: 80px;
 }
 
 
@@ -85,8 +98,8 @@ a {
 .site-nav .link,
 .auth-nav .link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    /* padding-top: 32px;
+    padding-bottom: 32px; */
 }
 
 /* .site-nav .item,.auth-nav .item {
@@ -345,6 +358,19 @@ padding: 200px 452px;
     margin: 0 0;
 }
 
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-list .item {
+    outline: solid red 1px;
+}
+
+.projects-list .item + .item {
+    margin-left: 30px;
+}
+
 .projects h2 {
     margin-top: 20px;
     margin-bottom: 4px;
@@ -358,6 +384,7 @@ padding: 200px 452px;
 .projects p {
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 20px;
 
     font-weight: 400;
     font-size: 16px;
@@ -366,20 +393,10 @@ padding: 200px 452px;
 }
 
 /* Navigations Buttons*/
-button {
-    border: 1px solid transparent ;
-    border-radius: 4px;
-
-    font-family: inherit;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-}
 
 .button-list {
     display: flex;
+    justify-content: center;
     
 }
 
