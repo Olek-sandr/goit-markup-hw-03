@@ -185,12 +185,12 @@ a {
 .hero {
 background-color: var(--footer-hero);
 padding: 200px 452px;
+text-align: center;
 }
 
 .hero > h1 {
     margin-right: 0;
     margin-bottom: 0;
-    margin-top: 0;
     text-align: center;
 
     width: 696px;
@@ -379,7 +379,7 @@ padding: 200px 452px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;  
-}
+        }
 
 .projects p {
     margin-top: 0;
