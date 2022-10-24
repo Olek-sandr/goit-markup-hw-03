@@ -68,7 +68,6 @@ a {
 .container-header {
     display: flex;
     align-items: center;
-    height: 80px;
 }
 
 
@@ -105,8 +104,8 @@ a {
 .site-nav .link,
 .auth-nav .link {
     display: block;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* .site-nav .item,.auth-nav .item {
