@@ -30,6 +30,7 @@ ul {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 .body {
@@ -204,6 +205,8 @@ padding: 200px 452px;
     color: #FFFFFF;
 }
 
+/* BENEFITS */
+
 .benefits-list {
     display: flex;
 }
@@ -242,14 +245,27 @@ padding: 200px 452px;
     color: var(--second-color);
 }
 
-.team {
-    background-color: #F5F4FA;
+/* ACTIVIVY AND TEAM */
+
+.activity h2,
+.team h2 {
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--main-color);
 }
 
-.team h2 {
-   margin-top: 0;
-   padding-top: 94px;
-   }
+.activity-list {
+    display: flex;
+}
+
+.activity-list .item + .item {
+    margin-left: 30px;
+}
 
 .activity h2 {
     margin-top: 94px;
@@ -259,16 +275,30 @@ padding: 200px 452px;
     margin-bottom: 94px;
 }
 
-.activity h2,
-.team h2 {
-    margin-bottom: 50px;
-    text-align: center;
+.team-list {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.team-list .item + .item{
+    margin-left: 30px;
+
     
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--main-color);
+}
+
+.team-list .item {
+    /* border-radius: 0px 0px 4px 4px; */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team h2 {
+   margin-top: 0;
+   padding-top: 94px;
 }
 
 .team h3 {
@@ -285,7 +315,7 @@ padding: 200px 452px;
 
 .team p {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 
     font-weight: 400;
     font-size: 16px;
