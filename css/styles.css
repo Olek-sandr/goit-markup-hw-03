@@ -22,7 +22,6 @@
     margin-right: auto;
     width: 1200px;
     outline: black solid 3px;
-    background-color: teal;
 }
 
 /* Body */
@@ -105,8 +104,10 @@ a {
 }
 
 .footer>.logo {
+    display: inline-block;
     color: #FFFFFF;
-}
+    padding: 60px 1240px 10px 215px;
+    }
 
 .addres-first-link {
     color: #FFFFFF;
@@ -193,9 +194,21 @@ padding: 200px 452px;
     background-color: #F5F4FA;
 }
 
+.team h2 {
+   margin-top: 0;
+   padding-top: 94px;
+   }
+
+.activity h2 {
+    margin-top: 94px;
+}
+
+.activity img {
+    margin-bottom: 94px;
+}
+
 .activity h2,
 .team h2 {
-    margin-top: 94px;
     margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
@@ -206,7 +219,9 @@ padding: 200px 452px;
 }
 
 .team h3 {
-    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
@@ -215,6 +230,8 @@ padding: 200px 452px;
 }
 
 .team p {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -229,7 +246,23 @@ padding: 200px 452px;
 /* PORTFOLIO */
 /* Main */
 
+.filtr h1 {
+    display: inline-block;
+    height: 94px;
+    color: transparent;
+    margin: 0 0;
+}
+
+.projects-title {
+    display: inline-block;
+    height: 50px;
+    color: transparent;
+    margin: 0 0;
+}
+
 .projects h2 {
+    margin-top: 20px;
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -237,6 +270,8 @@ padding: 200px 452px;
 }
 
 .projects p {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;

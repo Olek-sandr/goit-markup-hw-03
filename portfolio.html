@@ -16,20 +16,22 @@
   <body class="body">
     <!--Header-->
     <header>
-      <a lang="en" class="logo" href=""><span class="logo-style">Web</span>Studio</a>
+      <div class="container">
+        <a lang="en" class="logo" href="./index.html"><span class="logo-style">Web</span>Studio</a>
 
-      <nav>
-        <ul class="site-nav">
-          <li><a href="./index.html">Студія</a></li>
-          <li><a class="current" href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <nav class="na">
+          <ul class="site-nav">
+            <li><a class="current" href="./index.html">Студія</a></li>
+            <li><a href="./portfolio.html">Портфоліо</a></li>
+            <li><a href="">Контакти</a></li>
+          </ul>
+        </nav>
+
+        <ul class="auth-nav">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
-
-      <ul class="auth-nav">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!--Main-->
@@ -37,77 +39,80 @@
       <section class="filtr">
         <h1>Навігація сайту</h1>
 
-        <ul class="button-list">
-          <li><button type="button" class="button">Усі</button></li>
-          <li><button type="button" class="button">Веб-сайти</button></li>
-          <li><button type="button" class="button">Додатки</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
-        </ul>
+        <div class="container">
+          <ul class="button-list">
+            <li><button type="button" class="button">Усі</button></li>
+            <li><button type="button" class="button">Веб-сайти</button></li>
+            <li><button type="button" class="button">Додатки</button></li>
+            <li><button type="button" class="button">Дизайн</button></li>
+            <li><button type="button" class="button">Маркетинг</button></li>
+          </ul>
+        </div>
       </section>
 
       <section class="projects">
-        <h2>Приклади робіт</h2>
+        <h2 class="projects-title">Приклади робіт</h2>
 
-        <ul>
-          <li>
-            <img src="./images/technocrack.jpg" alt="Веб-сайт" />
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/neworleanvsgoldenstar.jpg"
-              width="370"
-              height="294"
-              alt="Постер гри з баскетболу"
-            />
-            <h2 lang="en">Постер new orlean vs golden star</h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/seafood.jpg" alt=" Додаток ресторану" />
-            <h2>Ресторан <span lang="en">seafood</span></h2>
-            <p>Додаток</p>
-          </li>
-          <li>
-            <img src="./images/prime.jpg" alt="Чорні навушники" />
-            <h2>Проєкт <span lang="en">prime</span></h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/boxes.jpg" alt="Додаток" />
-            <h2>Проєкт <span lang="en">boxes</span></h2>
-            <p>Додаток</p>
-          </li>
-          <li>
-            <img src="./images/inspirationhasnoborders.jpg" alt="Веб-сайт" />
-            <h2><span lang="en">Inspiration has no borders</span></h2>
-            <p>Веб-сайт</p>
-          </li>
-          <li>
-            <img src="./images/limitededition.jpg" alt="Розгорнута книга" />
-            <h2>Видання <span lang="en">limited edition</span></h2>
-            <p>Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/lab.jpg" alt="Бирка" />
-            <h2>Проєкт <span lang="en">lab</span></h2>
-            <p>Маркетинг</p>
-          </li>
-          <li>
-            <img src="./images/growingbusiness.jpg" alt="Додаток відкритий на десктопі" />
-            <h2><span lang="en">Growing business</span></h2>
-            <p>Додаток</p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul>
+            <li>
+              <img src="./images/technocrack.jpg" alt="Веб-сайт" />
+              <h2>Технокряк</h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li>
+              <img
+                src="./images/neworleanvsgoldenstar.jpg"
+                width="370"
+                height="294"
+                alt="Постер гри з баскетболу"
+              />
+              <h2 lang="en">Постер new orlean vs golden star</h2>
+              <p>Дизайн</p>
+            </li>
+            <li>
+              <img src="./images/seafood.jpg" alt=" Додаток ресторану" />
+              <h2>Ресторан <span lang="en">seafood</span></h2>
+              <p>Додаток</p>
+            </li>
+            <li>
+              <img src="./images/prime.jpg" alt="Чорні навушники" />
+              <h2>Проєкт <span lang="en">prime</span></h2>
+              <p>Маркетинг</p>
+            </li>
+            <li>
+              <img src="./images/boxes.jpg" alt="Додаток" />
+              <h2>Проєкт <span lang="en">boxes</span></h2>
+              <p>Додаток</p>
+            </li>
+            <li>
+              <img src="./images/inspirationhasnoborders.jpg" alt="Веб-сайт" />
+              <h2><span lang="en">Inspiration has no borders</span></h2>
+              <p>Веб-сайт</p>
+            </li>
+            <li>
+              <img src="./images/limitededition.jpg" alt="Розгорнута книга" />
+              <h2>Видання <span lang="en">limited edition</span></h2>
+              <p>Дизайн</p>
+            </li>
+            <li>
+              <img src="./images/lab.jpg" alt="Бирка" />
+              <h2>Проєкт <span lang="en">lab</span></h2>
+              <p>Маркетинг</p>
+            </li>
+            <li>
+              <img src="./images/growingbusiness.jpg" alt="Додаток відкритий на десктопі" />
+              <h2><span lang="en">Growing business</span></h2>
+              <p>Додаток</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!--Footer-->
     <footer class="footer">
-      <a lang="en" class="logo" href=""><span class="logo-style">Web</span>Studio</a>
-
+      <a lang="en" class="logo" href="./index.html"><span class="logo-style">Web</span>Studio</a>
       <address class="addres">
         <ul>
           <li>
