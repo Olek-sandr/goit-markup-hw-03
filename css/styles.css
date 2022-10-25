@@ -51,6 +51,23 @@ button {
     padding: 6px 22px;
 }
 
+.title {
+
+}
+
+.list {
+
+}
+
+
+
+    
+
+.section {
+
+}
+
+
 /* Body */
 .body {
     color: var(--main-color);
@@ -80,6 +97,10 @@ a {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+}
+
+.footer-logo{
+
 }
 
 .logo-style {
@@ -158,7 +179,7 @@ a {
     background-color: var(--footer-hero);
 }
 
-.addres {
+.address {
     font-style: normal;
 }
 
@@ -168,20 +189,20 @@ a {
     padding: 60px 1240px 10px 215px;
     } */
 
-.addres-first-link {
+.address .first-link {
     color: #FFFFFF;
     font-weight: 400;
     line-height: 1.7;
 }
 
-.addres-link {
+.address .link {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     line-height: 1.7;
 }
 
-.addres a:hover,
-.addres a:focus {
+.address a:hover,
+.address a:focus {
     color: var(--accent)
 }
 
@@ -195,7 +216,7 @@ a {
     margin-bottom: 94px;
 }
 
-.hero > h1 {
+.hero-title {
     margin-right: 0;
     margin-bottom: 0;
     text-align: center;
@@ -266,8 +287,8 @@ a {
 
 /* ACTIVIVY AND TEAM */
 
-.activity h2,
-.team h2 {
+.section-title-activity,
+.section-title-team {
     margin-bottom: 50px;
     text-align: center;
 
@@ -295,6 +316,10 @@ a {
 
 .team-list {
     display: flex;
+}
+
+.team-card{
+
 }
 
 .team-list .item + .item{
