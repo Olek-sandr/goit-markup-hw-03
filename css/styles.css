@@ -260,7 +260,7 @@ ul {
 
 .benefits-list p {
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     color: var(--second-color);
     display: inline-block;
@@ -271,11 +271,17 @@ ul {
 
 .benefits-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: var(--card-set-gap);
 }
 
-.benefits-list .item+.item {
-    margin-left: 30px;
+.benefits-list .item {
+    flex-basis: calc((100% - 90px) / 4);
 }
+
+/* .benefits-list .item+.item {
+    margin-left: 30px;
+} */
 
 
 /* ACTIVITY */
