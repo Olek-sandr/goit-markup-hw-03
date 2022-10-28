@@ -39,7 +39,18 @@ ul {
     line-height: 1.71;
 }
 
-.hiden-title {
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} {
     color: transparent;
     margin-top: 0;
     margin-bottom: 0;
@@ -381,6 +392,12 @@ padding-top: 0;
 }
 
 /* projects-list*/
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
 
 .card-set {
     display: flex;
