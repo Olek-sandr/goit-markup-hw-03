@@ -50,12 +50,7 @@ ul {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-} {
-    color: transparent;
-    margin-top: 0;
-    margin-bottom: 0;
-
-}
+} 
 
 .body {
     color: var(--main-color);
