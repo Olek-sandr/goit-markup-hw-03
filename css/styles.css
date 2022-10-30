@@ -192,23 +192,8 @@ a {
 
 /* -------HERO------- */
 
-.overlay {
-  margin-left: auto;
-  margin-right: auto;
-
-  height: 600px;
-  max-width: 1600px;
-  /* outline: 4px solid red; */
-
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/team.jpg);
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-}
-
 .hero {
-  /* background-color: var(--footer-hero); */
+  background-color: var(--footer-hero);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -287,18 +272,6 @@ a {
 
 .benefits-list .item {
   flex-basis: calc((100% - 90px) / 4);
-}
-
-.benefits-list .item::before {
-  content: '';
-  display: block;
-  height: 120px;
-
-  margin-bottom: 30px;
-
-  /* outline: 1px solid red; */
-  background: #f5f4fa;
-  border-radius: 4px;
 }
 
 /* .benefits-list .item+.item {
